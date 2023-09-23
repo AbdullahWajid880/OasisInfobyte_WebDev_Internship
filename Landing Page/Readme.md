@@ -9,8 +9,7 @@ Welcome to the Earth Wandrers landing page project! This project aims to create 
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Styling](#styling)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Project Overview
 
@@ -38,3 +37,12 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone https://github.com/yourusername/earth-wandrers-landing-page.git
+
+   Open the project folder in your preferred code editor.
+   Open the index.html file in your browser to view the landing page.
+
+Usage
+Feel free to use this landing page as a template for your own projects. You can replace the content, images, and styles to fit your needs. Modify the HTML and CSS files to customize the landing page further.
+
+Styling
+The project includes a style.css file that contains the styling for the landing page. You can adjust the colors, fonts, and layout by modifying this CSS file. The project uses a color scheme with Earthy Green, Camel Brown, and other subtle colors to create an aesthetic design.
