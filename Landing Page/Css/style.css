@@ -1,0 +1,245 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F0F0F0;
+    margin: 20px;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 0;
+}
+/*------------------Navbar-----------------------*/
+
+nav ul li a {
+    border-color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #4CAF50;
+    border-radius: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #FFF3E1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 20px;
+    border-color: black;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*------------------Navbar-----------------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF3E1;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #e6dbd7;
+}
+/*------------------Intro Line-----------------------*/
+
+.intro-line {
+    background-color: #C19A6B;
+    color: #FFF;
+    padding: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.intro-line p {
+    font-size: 16px;
+    margin: 0;
+}
+/*------------------Email----------------------*/
+
+.contact-info {
+    font-size: 14px;
+    color: #FFF;
+    margin-top: 10px;
+}
+
+
+.fa {
+    margin-right: 5px;
+}
+
+.wonder {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 27px;
+    margin: 10px;
+    font-weight: 700;
+    color: #333;
+    text-align: left;
+}
+
+.wonder h3 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+}
+
+.wonder p {
+    font-size: 16px;
+    margin: 0;
+    color: #555;
+    flex: 1;
+    text-align: justify;
+}
+
+/*------------------Footer-----------------------*/
+
+.footer {
+    background-color: #4CAF50;
+    color: #FFF;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+/*---------------------Image styling--------------------*/
+
+.wonder-img img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.wonder-img img:hover {
+    transform: scale(1.1);
+}
+
+.hover-image img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+    margin-left: 20px;
+}
+
+/*---------------------About US--------------------*/
+
+.about-us {
+    background-color: #FFF;
+    padding: 40px;
+    margin: 40px 0;
+    border-radius: 20px;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-us h3 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: #555;
+}
+
+/*---------------------Contact Form--------------------*/
+
+.contact-form {
+    background-color: #FFF;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 20px;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #45A049;
+}
