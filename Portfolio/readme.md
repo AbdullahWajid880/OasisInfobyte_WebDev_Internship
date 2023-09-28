@@ -21,6 +21,8 @@ To view the website locally, follow these steps:
 
 ```bash
 git clone https://github.com/your-username/your-portfolio.git
-Open the index.html file in your web browser.
-Usage
+
+1-Open the index.html file in your web browser.
+
+## Usage
 Feel free to use this code as a template for your own portfolio. You can customize it with your own information, projects, and styling.
