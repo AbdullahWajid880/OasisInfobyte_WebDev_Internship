@@ -1,0 +1,323 @@
+/*  default margin and padding for the whole page */
+body, h1, h2, h3, p, ul, li {
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0e5e5;
+}
+
+/* Header styles */
+.header {
+    background-color: #acbb90; 
+    color: #fff; 
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+
+.header p {
+    font-size: 18px;
+}
+
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    font-size: 24px;
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #333; 
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    display: block;
+    color: whitesmoke; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: black; 
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-btn {
+    color: whitesmoke; 
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; 
+    min-width: 160px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: whitesmoke; 
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #555; 
+}
+
+/* Section styles */
+.section {
+    background-color: #fff; 
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #444; 
+    
+}
+
+.section p {
+    font-size: 16px;
+    color: #333; 
+    text-align: left;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #acbb90;
+    color: #fff; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px;
+}
+/* Image boxes for About Me section */
+.about-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    transition: transform 1s ease; }
+
+.about-box img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 10%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+
+.contact-image {
+    width: 140px;
+    height: 140px; 
+    border-radius:50%; 
+    object-fit:cover;
+    margin: 10px;
+}
+
+
+.about-box:hover {
+    transform: scale(1.05); 
+}
+
+/* Style for Contact Form */
+.contact-form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.contact-form p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact-form label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+
+.offer-letter-container {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling for offer letter images */
+.offer-letter {
+    width: 120px; 
+    margin-right: 20px; 
+    transition: transform 0.2s ease; 
+}
+
+.offer-letter:hover {
+    transform: scale(1.05); 
+}
+
+
+.contact-form textarea {
+    height: 50px; 
+}
+
+.contact-form button {
+    background-color: #acbb90; 
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049; 
+}
+
+
+
+
+@media (max-width: 480px) {
+    /* Adjust your styles here for smaller devices */
+    body {
+        font-size: 14px; 
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar li {
+        margin: 10px 0;
+    }
+
+    .navbar a {
+        padding: 10px 20px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .section h2 {
+        font-size: 18px; 
+    }
+
+    .section p {
+        font-size: 12px; 
+    }
+
+}
+
+/*----------------- Smooth scroll behavior for the entire page---------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar a {
+    transition: color 0.3s ease; 
+}
+
+
+.section:target {
+    background-color: antiquewhite;
+    animation: sectionHighlight 0.5s ease-in-out;
+}
+
+
+
+/* Project styles */
+.project {
+    display: flex;
+    align-items:normal;
+    margin-bottom: 20px;
+    transition: transform 0.9s ease;
+}
+
+.project i {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.project h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.project p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+.project:hover {
+    transform: scale(1.05); 
+   
+}
