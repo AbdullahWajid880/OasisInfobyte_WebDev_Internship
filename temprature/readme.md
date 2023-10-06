@@ -10,7 +10,7 @@ This simple web application allows users to convert temperatures between Celsius
 - [How to Use](#how-to-use)
 - [Files](#files)
 - [Customization](#customization)
-- [License](#license)
+
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 - [Contact](#contact)
@@ -36,9 +36,7 @@ This simple web application allows users to convert temperatures between Celsius
 
 Feel free to customize the color scheme and styles by modifying the CSS in the `<style>` section of the HTML file (`temperature_converter.html`).
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Author
 
