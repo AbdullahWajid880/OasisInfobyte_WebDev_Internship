@@ -39,8 +39,7 @@ Feel free to customize the color scheme and styles by modifying the CSS in the `
 
 
 ## Author
-
-[Your Name]
+ABDULLAH WAJID 
 
 ## Acknowledgments
 
